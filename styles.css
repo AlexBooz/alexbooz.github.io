@@ -1,17 +1,9 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%; /* Задаем высоту на 100% экрана */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
-/* Центрируем контейнер */
-.centered-container {
-    display: flex; /* Включаем flexbox */
-    justify-content: center; /* Горизонтальное центрирование */
-    align-items: center; /* Вертикальное центрирование */
-    height: 100%; /* Контейнер занимает всю высоту */
-    text-align: center; /* Текст в контейнере выровнен по центру */
-}
 .links-container a {
     display: block; /* Делаем ссылки блочными элементами */
     margin-bottom: 10px; /* Добавляем отступ между ссылками */
@@ -21,15 +13,4 @@ body, html {
 
 .links-container a:hover {
     color: #0056b3; /* Цвет ссылок при наведении */
-}
-
-/* Дополнительные стили текста */
-h1 {
-    font-size: 2.5rem;
-    margin: 0;
-}
-
-p {
-    font-size: 1.2rem;
-    color: #555;
 }
