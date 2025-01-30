@@ -1,4 +1,3 @@
-<html>
 body, html {
     margin: 0;
     padding: 0;
@@ -29,4 +28,3 @@ body {
 .links-container a:hover {
     color: #0056b3; /* Цвет ссылок при наведении */
 }
-</html>
