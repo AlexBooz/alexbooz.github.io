@@ -1,3 +1,5 @@
+<body>
+<html>
 body, html {
     margin: 0;
     padding: 0;
@@ -8,10 +10,9 @@ body, html {
 .centered-container {
     display: flex; /* Включаем flexbox */
     justify-content: center; /* Горизонтальное центрирование */
-    align-items: center; /* Вертикальное центрирование */
+    align-items: top; /* Вертикальное центрирование */
     height: 100%; /* Контейнер занимает всю высоту */
-    text-align: center; /* Текст в контейнере выровнен по центру */
-}
+    }
 
 body {
     font-family: Arial;
@@ -29,3 +30,5 @@ body {
 .links-container a:hover {
     color: #0056b3; /* Цвет ссылок при наведении */
 }
+</body>
+</html>
